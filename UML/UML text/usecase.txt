@@ -1,0 +1,14 @@
+[Marketing and sales team]-(Find a customer){bg:brown}
+(note: Customer)-(Find a customer)
+[Marketing and sales team]-(New user registration){bg:chartreuse}
+(note: Website)-(New user registration)
+[Marketing and sales team]-(Customer relationship report){bg:chartreuse}
+(note: Website)-(Customer relationship report)
+[Technical team]-(Get the visit date){bg:chartreuse}
+(note: Website )-(Get the visit date)
+[Technical team]-(Going to the customer's place and checking the technical systems){bg:brown}
+(note: Customer )-(Going to the customer's place and checking the technical systems)
+[Technical team]-(Registration of the technical report after the visit){bg:chartreuse}
+(note: Website )-(Registration of the technical report after the visit)
+[Customer]-(View the report){bg:chartreuse}
+(note:  Website )-(View the report)

@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" modified="2024-06-09T05:22:59.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="UBJwWVDp8o2-Gj1JlArC" version="24.5.2" type="device">
+  <diagram name="Page-1" id="LA9-Y1V1zJIlQjxkmPLj">
+    <mxGraphModel dx="1050" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-1" value="Customer" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="110" y="30" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-2" value="marketing expert" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="240" y="30" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-3" value="Website (Front)" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="30" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-4" value="Website (Back)" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="500" y="30" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-5" value="(D.B)" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="630" y="30" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rpDP4vhG7Fsu-FvYb7s8-6" target="rpDP4vhG7Fsu-FvYb7s8-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="173" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-6" value="get data" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="252.5" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nfYHCG3ZYXOibSyI1Sqi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rpDP4vhG7Fsu-FvYb7s8-7" target="nfYHCG3ZYXOibSyI1Sqi-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-7" value="Customer Name&lt;br&gt;Customer Phone&lt;br&gt;Customer Address&lt;br&gt;Connector Name" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="122.5" y="160" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nfYHCG3ZYXOibSyI1Sqi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nfYHCG3ZYXOibSyI1Sqi-2" target="nfYHCG3ZYXOibSyI1Sqi-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfYHCG3ZYXOibSyI1Sqi-2" value="go to&amp;nbsp;&lt;br&gt;Users report (گزارش کاربران&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;div&gt;page&lt;/div&gt;" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="252.5" y="220" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nfYHCG3ZYXOibSyI1Sqi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nfYHCG3ZYXOibSyI1Sqi-4" target="nfYHCG3ZYXOibSyI1Sqi-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfYHCG3ZYXOibSyI1Sqi-4" value="click &lt;br&gt;Add user&lt;br&gt;btn" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nfYHCG3ZYXOibSyI1Sqi-6" target="T_3ddQ_gXOEZp96_CMe6-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfYHCG3ZYXOibSyI1Sqi-6" value="open Register Modal" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="364" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-1" target="T_3ddQ_gXOEZp96_CMe6-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-1" value="وارد کردن نام مشتری" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-3" target="T_3ddQ_gXOEZp96_CMe6-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-3" value="شماره تلفن مشتری" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="530" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-5" value="آدرس مشتری" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="620" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="T_3ddQ_gXOEZp96_CMe6-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-8" target="T_3ddQ_gXOEZp96_CMe6-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-8" value="نام رابط دو شرکت" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="730" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-11" target="T_3ddQ_gXOEZp96_CMe6-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-11" value="کلیک بر روی دکمه ثبت نام کاربر" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="810" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-13" target="T_3ddQ_gXOEZp96_CMe6-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="562.5238095238096" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-13" value="ارسال داده به backend" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="890" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-19" target="T_3ddQ_gXOEZp96_CMe6-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-19" target="T_3ddQ_gXOEZp96_CMe6-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-19" value="اعتبار سنجی داده های ثبت نام" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="523" y="950" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-20" target="T_3ddQ_gXOEZp96_CMe6-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-20" value="مشکلی پیش آمده دوباره امتحان کنید" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="1030" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-22" value="ذخیره در پایگاه داده" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="642.5" y="1030" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-26" value="" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="292.5" y="70" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-22" target="T_3ddQ_gXOEZp96_CMe6-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692.5" y="1130" as="targetPoint" />
+            <mxPoint x="692" y="1080" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-28" value="" style="html=1;shape=mxgraph.sysml.actFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" parent="1" vertex="1">
+          <mxGeometry x="681.5" y="1110" width="22" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2024-06-09T06:10:53.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="OKiovf3kDOTDVZCtC2YK" version="24.5.2" type="device">
+  <diagram name="Page-1" id="LA9-Y1V1zJIlQjxkmPLj">
+    <mxGraphModel dx="1500" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-2" value="Customer" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="20" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-3" value="Website (Front)" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="300" y="20" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-4" value="Website (Back)" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="430" y="20" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-5" value="(D.B)" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="560" y="20" width="125" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rpDP4vhG7Fsu-FvYb7s8-6" target="00j6Fy1lU2ZtpMoFwbyg-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362.4999999999999" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpDP4vhG7Fsu-FvYb7s8-6" value="ورود به صفحه اصلی" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+          <mxGeometry x="312.5" y="100" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3t2_ptl2TNoAEqIJm4ep-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T_3ddQ_gXOEZp96_CMe6-26" target="rpDP4vhG7Fsu-FvYb7s8-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_3ddQ_gXOEZp96_CMe6-26" value="" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="222.5" y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00j6Fy1lU2ZtpMoFwbyg-5" target="00j6Fy1lU2ZtpMoFwbyg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-5" value="زدن بر روی dropdown&amp;nbsp;&lt;div&gt;گزارشات&lt;/div&gt;" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="180" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00j6Fy1lU2ZtpMoFwbyg-6" target="00j6Fy1lU2ZtpMoFwbyg-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-6" value="انتخاب زیر منو&lt;br&gt;گزارشات کاربران" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00j6Fy1lU2ZtpMoFwbyg-8" target="00j6Fy1lU2ZtpMoFwbyg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-8" value="انتخاب گزارش جدید" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00j6Fy1lU2ZtpMoFwbyg-10" target="00j6Fy1lU2ZtpMoFwbyg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-10" value="باز کردن و مشاهده گزارش جدید تیم فنی" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00j6Fy1lU2ZtpMoFwbyg-13" target="00j6Fy1lU2ZtpMoFwbyg-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-13" value="دریافت لیست گزارشات از پایگاه داده" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00j6Fy1lU2ZtpMoFwbyg-14" target="00j6Fy1lU2ZtpMoFwbyg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-14" value="لیست کردن داده ها" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="00j6Fy1lU2ZtpMoFwbyg-17" value="" style="html=1;shape=mxgraph.sysml.actFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="510" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

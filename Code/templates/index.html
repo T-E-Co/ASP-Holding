@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRM-CS-IRAN</title>
+        <link href="../static/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                background-color: #f0f0f0; /* رنگ زمینه */
+            }
+            .content {
+                display: flex;
+                flex: 1;
+            }
+            .navbar {
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                z-index: 1030; /* Ensure the navbar is above the sidebar */
+                background-color: #505050; /* رنگ نوبار */
+            }
+            .navbar-brand, .nav-link {
+                color: #f8f8f2 !important; /* رنگ لینک‌ها */
+            }
+            .light.nav-link:hover {
+                color: #5bc0de !important; /* رنگ لینک‌ها در حالت hover */
+            }
+            .dark.nav-link:hover {
+                color: #0051af !important; /* رنگ لینک‌ها در حالت hover */
+            }
+            .sidebar {
+                width: 200px;
+                position: fixed;
+                top: 56px; /* ارتفاع نوبار */
+                right: 0;
+                bottom: 0;
+                background-color: #b0b0b0; /* رنگ سایدبار */
+                overflow-y: auto;
+                box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+                z-index: 1020; /* Ensure the sidebar is above the main content */
+            }
+            .main-content {
+                flex: 1;
+                margin-right: 200px; /* فضای کنار سایدبار */
+                margin-top: 56px; /* ارتفاع نوبار */
+                padding: 1rem;
+                overflow-y: auto;
+                height: 4000px;
+                box-shadow: none; /* No shadow on main content as it's the lowest layer */
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link light" href="#">پشتیبانی</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="#" class="nav-link light">امیرحسین بازیار</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="sidebar">
+                <!-- محتوای سایدبار -->
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link dark" href="#">لینک ۱</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dark" href="#">لینک 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dark" href="#">لینک ۳</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <!-- محتوای اصلی صفحه -->
+                <h1>عنوان اصلی</h1>
+                <p>اینجا محتوای اصلی صفحه قرار می‌گیرد.</p>
+            </div>
+        </div>
+
+        <script src="../static/node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="../static/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

@@ -6,14 +6,11 @@
         <title>CRM-CS-IRAN</title>
         <link href="../static/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
         <style>
-            .english-text {
-
-            }
             body {
                 display: flex;
                 flex-direction: column;
                 height: 100vh;
-                background-color: #f0f0f0; /* رنگ زمینه */
+                background-color: #f0f0f0;
             }
             .content {
                 display: flex;
@@ -21,17 +18,17 @@
             }
             .navbar {
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                z-index: 1030; /* Ensure the navbar is above the sidebar */
-                background-color: #505050; /* رنگ نوبار */
+                z-index: 1030;
+                background-color: #505050;
             }
             .navbar-brand, .nav-link {
-                color: #f8f8f2 !important; /* رنگ لینک‌ها */
+                color: #f8f8f2 !important;
             }
             .light.nav-link:hover {
-                color: #5bc0de !important; /* رنگ لینک‌ها در حالت hover */
+                color: #5bc0de !important;
             }
             .dark.nav-link:hover {
-                color: #0051af !important; /* رنگ لینک‌ها در حالت hover */
+                color: #0051af !important;
             }
             .sidebar {
                 width: 200px;
@@ -39,24 +36,21 @@
                 top: 56px; /* ارتفاع نوبار */
                 right: 0;
                 bottom: 0;
-                background-color: #b0b0b0; /* رنگ سایدبار */
+                background-color: #b0b0b0;
                 overflow-y: auto;
                 box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
-                z-index: 1020; /* Ensure the sidebar is above the main content */
+                z-index: 1020;
             }
             .main-content {
                 flex: 1;
-                margin-right: 200px; /* فضای کنار سایدبار */
-                margin-top: 56px; /* ارتفاع نوبار */
+                margin-right: 200px;
+                margin-top: 56px;
                 padding: 1rem;
                 overflow-y: auto;
                 height: 4000px;
-                box-shadow: none; /* No shadow on main content as it's the lowest layer */
+                box-shadow: none;
             }
-
-
-
-
+            /*-----------------------------------*/
             .accordion-button {
                 background-color: transparent;
                 border: none;
@@ -74,7 +68,7 @@
                 box-shadow: none;
             }
             .list-group-item {
-           class="text-decoration-none"      border: none; /* Remove border between items */
+                border: none; /* Remove border between items */
                 border-top: 1px solid #dee2e6 !important;
                 border-radius: 0 !important;
                 padding: 10px 25px 10px 10px;
@@ -87,9 +81,7 @@
                 <a class="navbar-brand" href="#"> <span class="english-text">CRM CS</span> </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-<!--                        <li class="nav-item">-->
-<!--                            <a class="nav-link light" href="#">about us</a>-->
-<!--                        </li>-->
+                        <!-- something -->
                     </ul>
                     <div class="d-flex">
                         <a href="#" class="nav-link light">امیرحسین بازیار</a>
@@ -149,59 +141,6 @@
                         </div>
                     </div>
                 </div>
-<!--                <ul class="nav flex-column accordion" id="accordionExample">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link dark" href="#">تقویم فنی</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link dark" href="#">خدمات</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link dark" href="#">گزارشات</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link dark" href="#">گزارشات</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-
-<!--                <div class="nav flex-column accordion" id="accordionExample11111111111">-->
-<!--                    <div class="accordion-item">-->
-<!--                        <h2 class="accordion-header">-->
-<!--                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">-->
-<!--                                تقویم فنی-->
-<!--                            </button>-->
-<!--                        </h2>-->
-<!--                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">-->
-<!--                            <div class="accordion-body">-->
-<!--                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="accordion-item">-->
-<!--                        <h2 class="accordion-header">-->
-<!--                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">-->
-<!--                                Accordion Item #2-->
-<!--                            </button>-->
-<!--                        </h2>-->
-<!--                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">-->
-<!--                            <div class="accordion-body">-->
-<!--                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="accordion-item">-->
-<!--                        <h2 class="accordion-header">-->
-<!--                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">-->
-<!--                                Accordion Item #3-->
-<!--                            </button>-->
-<!--                        </h2>-->
-<!--                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">-->
-<!--                            <div class="accordion-body">-->
-<!--                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
             <div class="main-content">
                 <!-- محتوای اصلی صفحه -->

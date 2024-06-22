@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+body .content {
+  display: flex;
+  flex: 1;
+}
+body .content .main-content {
+  flex: 1;
+  margin-right: 200px;
+  margin-top: 56px;
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: none;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1030;
+  background-color: #505050;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #f8f8f2 !important;
+}
+.navbar .nav-link:hover {
+  color: #5bc0de !important;
+}
+
+.sidebar {
+  width: 200px;
+  position: fixed;
+  top: 56px;
+  right: 0;
+  bottom: 0;
+  background-color: #b0b0b0;
+  overflow-y: auto;
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+  z-index: 1020;
+}
+.sidebar .list-group-item {
+  border: none;
+  border-top: 1px solid #dee2e6 !important;
+  border-radius: 0 !important;
+  padding: 10px 25px 10px 10px;
+}
+.sidebar .accordion-button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  box-shadow: none;
+  padding: 10px 10px;
+}
+.sidebar .accordion-button:not(.collapsed) {
+  color: inherit;
+  background-color: #8E8EBF;
+}
+.sidebar .accordion-button:focus {
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=index-main.css.map */

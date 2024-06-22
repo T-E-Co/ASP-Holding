@@ -1,0 +1,50 @@
+body
+  display: flex
+  flex-direction: column
+  height: 100vh
+  background-color: #f0f0f0
+  .content
+    display: flex
+    flex: 1
+    .main-content
+      flex: 1
+      margin-right: 200px
+      margin-top: 56px
+      padding: 1rem
+      overflow-y: auto
+      box-shadow: none
+
+
+
+@import "../global/navbar"
+
+
+
+
+
+.sidebar
+  width: 200px
+  position: fixed
+  top: 56px /* ارتفاع نوبار */
+  right: 0
+  bottom: 0
+  background-color: #b0b0b0
+  overflow-y: auto
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1)
+  z-index: 1020
+  .list-group-item
+    border: none /* Remove border between items */
+    border-top: 1px solid #dee2e6 !important
+    border-radius: 0 !important
+    padding: 10px 25px 10px 10px
+  .accordion-button
+    background-color: transparent
+    border: none
+    color: inherit
+    box-shadow: none
+    padding: 10px 10px
+    &:not(.collapsed)
+      color: inherit
+      background-color: #8E8EBF
+    &:focus
+      box-shadow: none

@@ -5,8 +5,18 @@
         <title>HTML Login Form</title>
         <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
         <link rel="stylesheet" href="../assets/css/laptop/style.css">
+        <link rel="stylesheet" href="../assets/css/global/navbar.css">
     </head>
     <body>
+
+        <?php
+        try {
+            require '../includes/navbar.php';
+        } catch (Error $e) {
+            header('Location: ../includes/error.php');
+            exit();
+        }
+        ?>
 
         <div class="container">
             <div class="row">

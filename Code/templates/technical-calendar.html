@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRM-CS-IRAN</title>
+        <link href="../static/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                background-color: #f0f0f0;
+            }
+            .content {
+                display: flex;
+                flex: 1;
+            }
+            .navbar {
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                z-index: 1030;
+                background-color: #505050;
+            }
+            .navbar-brand, .nav-link {
+                color: #f8f8f2 !important;
+            }
+            .light.nav-link:hover {
+                color: #5bc0de !important;
+            }
+            .dark.nav-link:hover {
+                color: #0051af !important;
+            }
+            .sidebar {
+                width: 200px;
+                position: fixed;
+                top: 56px; /* ارتفاع نوبار */
+                right: 0;
+                bottom: 0;
+                background-color: #b0b0b0;
+                overflow-y: auto;
+                box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1);
+                z-index: 1020;
+            }
+            .main-content {
+                flex: 1;
+                margin-right: 200px;
+                margin-top: 56px;
+                overflow-y: auto;
+                box-shadow: none;
+            }
+            /*-----------------------------------*/
+            .accordion-button {
+                background-color: transparent;
+                border: none;
+                color: inherit;
+                box-shadow: none;
+                padding: 10px 10px;
+            }
+
+            .accordion-button:not(.collapsed) {
+                color: inherit;
+                background-color: #8E8EBF;
+            }
+
+            .accordion-button:focus {
+                box-shadow: none;
+            }
+            .list-group-item {
+                border: none; /* Remove border between items */
+                border-top: 1px solid #dee2e6 !important;
+                border-radius: 0 !important;
+                padding: 10px 25px 10px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <span class="english-text">CRM CS</span> </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- something -->
+                    </ul>
+                    <div class="d-flex">
+                        <a href="#" class="nav-link light">امیرحسین بازیار</a>
+                        <a href="#" class="nav-link light ms-3">خروج</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="sidebar">
+                <!-- محتوای سایدبار -->
+                <div class="accordion" id="accordionSidebar">
+                    <div class="accordion-item rounded-0">
+                        <h2 class="accordion-header" id="HeadingReports">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Reports" aria-expanded="false" aria-controls="Reports">
+                                گزارشات
+                            </button>
+                        </h2>
+                        <div id="Reports" class="accordion-collapse collapse" aria-labelledby="HeadingReports" data-bs-parent="#MainSidebar">
+                            <div class="accordion-body p-0">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="#" class="text-decoration-none">ثبت گزارش ارتباط با مشتری</a></li>
+                                    <li class="list-group-item"><a href="#" class="text-decoration-none">ثبت گزارش فنی</a></li>
+                                    <li class="list-group-item"><a href="#" class="text-decoration-none">مشاهده گزارشات فنی ثبت شده و ارسال آن</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item rounded-0">
+                        <h2 class="accordion-header" id="HeadingServices">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Services" aria-expanded="false" aria-controls="Services">
+                                خدمات
+                            </button>
+                        </h2>
+                        <div id="Services" class="accordion-collapse collapse" aria-labelledby="HeadingServices" data-bs-parent="#MainSidebar">
+                            <div class="accordion-body p-0">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="#" class="text-decoration-none">ایجاد یا مشاهده مشتری</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item rounded-0">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                تقویم فنی
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#MainSidebar">
+                            <div class="accordion-body p-0">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="#" class="text-decoration-none">مشاهده تقویم فنی</a></li>
+                                    <li class="list-group-item"><a href="#" class="text-decoration-none">ثبت تقویم فنی</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+
+                <div class="row w-100 p-5">
+                    <div class="col-4 py-3 px-4" style="height: 400px">
+                        <div class="overflow-auto bg-white shadow-lg rounded rounded-4 w-100 h-100 border border-1 border-opacity-75 border-secondary p-3">
+
+                            <p class="fw-bold text-center">شنبه 1403/05/15</p>
+                            <hr>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 px-4" style="height: 400px">
+                        <div class="overflow-auto bg-white shadow-lg rounded rounded-4 w-100 h-100 border border-1 border-opacity-75 border-secondary p-3">
+
+                            <p class="fw-bold text-center">یک شنبه 1403/05/16</p>
+                            <hr>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 px-4" style="height: 400px">
+                        <div class="overflow-auto bg-white shadow-lg rounded rounded-4 w-100 h-100 border border-1 border-opacity-75 border-secondary p-3">
+
+                            <p class="fw-bold text-center">دو شنبه 1403/05/17</p>
+                            <hr>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 px-4" style="height: 400px">
+                        <div class="overflow-auto bg-white shadow-lg rounded rounded-4 w-100 h-100 border border-1 border-opacity-75 border-secondary p-3">
+
+                            <p class="fw-bold text-center">سه شنبه 1403/05/18</p>
+                            <hr>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 px-4" style="height: 400px">
+                        <div class="overflow-auto bg-white shadow-lg rounded rounded-4 w-100 h-100 border border-1 border-opacity-75 border-secondary p-3">
+
+                            <p class="fw-bold text-center">چهار شنبه 1403/05/19</p>
+                            <hr>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-4 py-3 px-4" style="height: 400px">
+                        <div class="overflow-auto bg-white shadow-lg rounded rounded-4 w-100 h-100 border border-1 border-opacity-75 border-secondary p-3">
+
+                            <p class="fw-bold text-center">پنج شنبه 1403/05/20</p>
+                            <hr>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-2 text-center">&cir;</div>
+                                <div class="col-10" style="text-align: justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <script src="../static/node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="../static/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
